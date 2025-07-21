@@ -38,7 +38,7 @@ function playRound(humanChoice, compChoice){
     }   
 
     const options = ["Rock", "Paper", "Scissors"];
-    compString = options[compChoice - 1];
+    compString = options[compChoice - 1].toUpperCase();
 
     if (p == 0)
         console.log(`You lose! ${compString} beats ${humanChoice}`); 
